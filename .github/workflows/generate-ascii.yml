@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Repo
-      uses: action/checkout@v5
+      uses: actions/checkout@v5
 
     - name: Install Cowsay Program
       run: sudo apt-get install cowsay -y
